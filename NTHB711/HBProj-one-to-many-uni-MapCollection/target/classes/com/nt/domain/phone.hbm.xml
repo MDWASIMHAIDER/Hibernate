@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.nt.domain.Phone" table="MAP_PHONE_NUMBER">
+       
+        <id name="phone1" type="long">
+            <column name="PHONENUMBER" length="10" />
+        </id>
+        
+        <property name="numbertype" type="string">
+            <column name="NUMBERTYPE" length="10" />
+        </property>
+        <property name="provider" type="string">
+            <column name="PROVIDER" length="10" />
+        </property>
+       
+    </class>
+</hibernate-mapping>

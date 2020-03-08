@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+ 	<class name="com.nt.entity.Employee" table="EMployee_detail">
+ 		<id name="eid" column="EID"/>
+ 		<property name="ename" column="ENAME"/>
+ 		<property name="desg" column="DESG"/>
+ 		<property name="salary" column="SALARY"/>
+ 	
+ 	</class>
+ 	<sql-query name="GET_EMP_BY_DESG">
+ 		<return class="com.nt.entity.Employee"/>
+ 			<![CDATA[
+ 				select *from employee_detail where desg in(:desg1,:desg2)
+ 			]]>
+ 	</sql-query>
+ </hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.nt.domain.Phone" table="MANY_PHONE_NUMBER1">
+       
+        <id name="phoneNumber" type="long">
+            <column name="PHONENUMBER" length="13" />
+        </id>
+        
+        <property name="numbertype" type="string">
+            <column name="NUMBERTYPE" length="12" />
+        </property>
+        <property name="provider" type="string">
+            <column name="PROVIDER" length="12" />
+        </property>
+        <many-to-one name="user" class="com.nt.domain.User" cascade="all" 
+                           column="user_Id" lazy="proxy"/>
+       
+    </class>
+</hibernate-mapping>

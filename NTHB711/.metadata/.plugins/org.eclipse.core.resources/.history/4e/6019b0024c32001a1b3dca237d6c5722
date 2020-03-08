@@ -1,0 +1,8 @@
+package com.nt.entity;
+
+public class Address {
+	private String houseNo;
+	private String street;
+	private String area;
+	private int pin;
+}

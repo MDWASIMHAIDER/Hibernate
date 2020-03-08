@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=HBProj3-ProxyDesignPattern/src&lt;com.nt.command{BankService.java[BankService" modifiers="513" timestamp="1555183856436"/>
+<typeInfo handle="=HBProj3-PDReTest/src&lt;com.nt.commands{BNKService.java[BNKService" modifiers="513" timestamp="1555220310649"/>
+<typeInfo handle="=HBProj5-LoadObject-ProxyInterface/src&lt;com.nt.entity{IInsurancePolicy.java[IInsurancePolicy" modifiers="513" timestamp="1555240811447"/>
+<typeInfo handle="=HBProj10-WebLayeredApp/src&lt;com.nt.service{ProjectManagementService.java[ProjectManagementService" modifiers="513" timestamp="1555754334065"/>
+<typeInfo handle="=HBProj10-WebLayeredApp/src&lt;com.nt.dao{ProjectDAO.java[ProjectDAO" modifiers="513" timestamp="1555695171915"/>
+<typeInfo handle="=HBProj10-WebLayeredApp/D:\/Tomcat9\/lib\/servlet-api.jar&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1467656630000"/>
+<typeInfo handle="=HBProj10-WebLayeredApp/D:\/Tomcat9\/lib\/servlet-api.jar&lt;javax.servlet(ServletContext.class[ServletContext" modifiers="1537" timestamp="1467656630000"/>
+<typeInfo handle="=HBProj10-WebLayeredApp/D:\/Tomcat9\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletRequest.class[HttpServletRequest" modifiers="1537" timestamp="1467656630000"/>
+<typeInfo handle="=HBProj-UsingVersioning/src&lt;com.nt.dao{AirtelCallerTuneDAO.java[AirtelCallerTuneDAO" modifiers="513" timestamp="1556207639155"/>
+<typeInfo handle="=HBProj-UsingVersioning/src&lt;com.nt.factory{AirtelCallerTuneFactory.java[AirtelCallerTuneFactory" modifiers="513" timestamp="1556208750810"/>
+<typeInfo handle="=ComponentMapping/src\/main\/java&lt;com.nt.dao{PersonDetailDAO.java[PersonDetailDAO" modifiers="513" timestamp="1560615651016"/>
+<typeInfo handle="=InheritanceMapping/src\/main\/java&lt;com.nt.entity{Person.java[Person" modifiers="1" timestamp="1560620727132"/>
+<typeInfo handle="=InheritanceMapping/src\/main\/java&lt;com.nt.dao{InheritanceDAO.java[InheritanceDAO" modifiers="513" timestamp="1560704220128"/>
+<typeInfo handle="=HBProj-one-to-many-uni-setCollection/src\/main\/java&lt;com.nt.dao{UserDAO.java[UserDAO" modifiers="513" timestamp="1562171464710"/>
+<typeInfo handle="=HBProj-one-to-many-uni-setCollection/C:\/Program Files\/Java\/jdk1.8.0_171\/jre\/lib\/rt.jar&lt;org.omg.PortableInterceptor(USER_EXCEPTION.class[USER_EXCEPTION" modifiers="1537" timestamp="1565978421673"/>
+<typeInfo handle="=FirstAndSecondLevelCach/src\/main\/java&lt;com.nt.dao{AddressDao.java[AddressDao" modifiers="513" timestamp="1578550634987"/>
+<typeInfo handle="=FirstAndSecondLevelCach/C:\/Users\/wasim\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.3.Final\/hibernate-core-5.4.3.Final.jar&lt;org.hibernate.boot.spi(AdditionalJaxbMappingProducer.class[AdditionalJaxbMappingProducer" modifiers="1050113" timestamp="1559833125427"/>
+</typeInfoHistroy>

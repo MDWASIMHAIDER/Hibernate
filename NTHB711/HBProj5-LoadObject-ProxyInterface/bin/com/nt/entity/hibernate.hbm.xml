@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        <hibernate-mapping>
+        	<class name="com.nt.entity.InsurancePolicy" table="INSURANCE_DETAIL" lazy="false"
+        	proxy="com.nt.entity.IInsurancePolicy">
+        		<id name="policyId" column="POLICYID"/>
+        		<property name="policyName" column="POLICYNAME"/>
+        		<property name="tenure" column="TENURE"/>
+        		<property name="company" column="COMPANY"/>
+        		<property name="initialAmount" column="INITIALAMOUNT"/>
+        	</class>
+        </hibernate-mapping>

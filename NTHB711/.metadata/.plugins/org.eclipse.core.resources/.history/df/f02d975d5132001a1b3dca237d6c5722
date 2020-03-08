@@ -1,0 +1,15 @@
+package com.nt.utility;
+
+
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil {
+	try {
+	Configuration cfg=null;
+	cfg=new Configuration();
+	cfg.configure("com/nt/confg/hibernate.cfg.xml");
+	}
+	catch(Exception e) {
+		
+	}
+}

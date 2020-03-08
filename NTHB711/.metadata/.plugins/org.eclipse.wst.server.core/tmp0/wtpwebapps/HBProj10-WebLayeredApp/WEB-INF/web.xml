@@ -1,0 +1,51 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HBProj10-WebLayeredApp</display-name>
+  <welcome-file-list>
+    <welcome-file>find_project.html</welcome-file>
+  </welcome-file-list>
+  <listener>
+     <listener-class>com.nt.listeners.SessionManagementListener</listener-class>
+  </listener>
+  
+  <listener>
+     <listener-class>com.nt.listeners.SessionFactoryManagementListener</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>main</servlet-name>
+  	<servlet-class>com.nt.controller.MainController</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>main</servlet-name>
+  	<url-pattern>/projectdetail</url-pattern>
+  </servlet-mapping>
+</web-app> -->
+
+
+<web-app>
+  <display-name>HBProj10-WebLayeredApp</display-name>
+  <welcome-file-list>
+    <welcome-file>find_project.html</welcome-file>
+  </welcome-file-list>
+  
+  <listener>
+     <listener-class>com.nt.listener.SessionManagementListener</listener-class>
+  </listener>
+  
+  <listener>
+     <listener-class>com.nt.listener.SessionFactoryManagementListener</listener-class>
+  </listener>
+  
+   <servlet>
+      <servlet-name>main</servlet-name>
+      <servlet-class>com.nt.controler.MainController</servlet-class>
+      <load-on-startup>1</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>main</servlet-name>
+      <url-pattern>/projectdetail</url-pattern>
+   </servlet-mapping>
+  
+  
+</web-app>

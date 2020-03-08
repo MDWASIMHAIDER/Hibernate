@@ -1,0 +1,23 @@
+package com.nt.cachetest;
+
+import javax.persistence.Cacheable;
+
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import com.nt.dao.AddressDao;
+import com.nt.dao.AddressDaoImpl;
+import com.nt.entity.Address;
+
+
+
+public class AddressTest {
+
+	public static void main(String[] args) {
+		AddressDao dao=new AddressDaoImpl();
+		//dao.saveData();
+		dao.getAddressData();
+		
+	}
+
+}

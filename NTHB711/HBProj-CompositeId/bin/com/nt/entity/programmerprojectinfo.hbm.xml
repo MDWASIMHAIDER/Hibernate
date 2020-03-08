@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        <hibernate-mapping>
+        	<class name="com.nt.entity.ProgrammerProjectInfo" table="PROGRAMMERS_PROJECT">
+        		<composite-id>
+        			<key-property name="programmer_id" column="PROGRAMMER_ID"/>
+        			<key-property name="proj_id" column="PROJ_ID"/>
+        		</composite-id>
+        		<property name="progrmr_name" column="PROGRMR_NAME"/>
+        		<property name="proj_name" column="PROJ_NAME"/>
+        		<property name="salary" column="SALARY"/>
+        	</class>
+        </hibernate-mapping>

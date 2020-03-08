@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.nt.utility&apos; to &apos;HBProj10-BasicSave-UsingPropertiesFile/src&apos;&#x0D;&#x0A;- Original project: &apos;HBproj9-Non-SelectOperations&apos;&#x0D;&#x0A;- Destination element: &apos;HBProj10-BasicSave-UsingPropertiesFile/src&apos;&#x0D;&#x0A;- Original element: &apos;HBproj9-Non-SelectOperations/src/com.nt.utility&apos;" description="Copy package" destination="=HBProj10-BasicSave-UsingPropertiesFile/src" element1="/src&lt;com.nt.utility" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1555582463210" version="1.0"/>
+</session>

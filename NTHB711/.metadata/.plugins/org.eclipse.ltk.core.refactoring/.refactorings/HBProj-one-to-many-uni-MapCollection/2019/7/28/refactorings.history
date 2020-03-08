@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.test.One_To_One_Test&apos; to &apos;One_To_many_Test&apos;&#x0D;&#x0A;- Original project: &apos;HBProj-one-to-many-uni-MapCollection&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.test.One_To_One_Test&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.test.One_To_many_Test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;One_To_One_Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.nt.test{One_To_One_Test.java[One_To_One_Test" matchStrategy="1" name="One_To_many_Test" qualified="false" references="true" similarDeclarations="false" stamp="1562504740408" textual="false" version="1.0"/>
+</session>

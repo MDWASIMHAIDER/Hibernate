@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        <hibernate-mapping>
+        	<class name="com.nt.entity.PersonDetail" table="person_profile">
+        		<id name="pid" column="PID" length="10" type="int">
+        			<generator class="increment"/>
+        		</id>
+        		<property name="pname" column="PNAME"/>
+        		<property name="age" column="AGE"/>
+        		<component name="addrs" class="com.nt.entity.Address">
+        			<property name="houseNo" column="HOUSENO"/>
+        			<property name="street" column="STREET"/>
+        			<property name="area" column="AREA"/>
+        			<property name="pin" column="PIN"/>
+        		</component>
+        	</class>
+   		</hibernate-mapping>

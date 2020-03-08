@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;InheritanceMappint&apos; to &apos;InheritanceMapping&apos;" description="Rename resource &apos;InheritanceMappint&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/InheritanceMappint" name="InheritanceMapping" stamp="1560619815223" updateReferences="true"/>
+</session>

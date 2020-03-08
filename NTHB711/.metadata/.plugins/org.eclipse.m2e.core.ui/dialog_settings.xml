@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="443" key="x"/>
+		<item value="11" key="y"/>
+		<item value="530" key="height"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\FrameWork\Hibernate\NTHB711\HBProj-SavingObj-Using-JPA"/>
+			<item value="D:\FrameWork\Hibernate\NTHB711\HBProj-Save-using-setpropertyMethodOfCfgFile"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.test"/>
+			<item value="nit.FirstAndSecondLevelCach"/>
+			<item value="nit.HBProj_one_to_many_uni_setCollection"/>
+			<item value="nit.Hibernate_Filters"/>
+			<item value="nit.InheritanceMappint"/>
+			<item value="HBProj_Comp_Mapping.ComponentMapping"/>
+			<item value="HBProj_CriteriaApi.HBProj_JPACriteria_Api"/>
+			<item value="HBProj_CriteriaApi.Select_Operation_Criteria_Api"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+			<item value="HBProj-Comp-Mapping"/>
+			<item value="HBProj-CriteriaApi"/>
+		</list>
+		<list key="artifactId">
+			<item value="test"/>
+			<item value="FirstAndSecondLevelCach"/>
+			<item value="HBProj-one-to-many-uni-setCollection"/>
+			<item value="Hibernate_Filters"/>
+			<item value="InheritanceMappint"/>
+			<item value="ComponentMapping"/>
+			<item value="HBProj-JPACriteria-Api"/>
+			<item value="Select-Operation-Criteria-Api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

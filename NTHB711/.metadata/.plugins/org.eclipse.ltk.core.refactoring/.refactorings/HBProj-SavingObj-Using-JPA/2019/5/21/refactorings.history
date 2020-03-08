@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HBProj-SavingObj-Using-JPA/src/META-INF/persistance.xml&apos; to &apos;persistence.xml&apos;" description="Rename resource &apos;persistance.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/META-INF/persistance.xml" name="persistence.xml" stamp="1558706448603" updateReferences="true"/>
+</session>

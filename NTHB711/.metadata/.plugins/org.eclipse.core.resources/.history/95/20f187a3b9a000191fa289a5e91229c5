@@ -1,0 +1,112 @@
+package com.nt.dao;
+
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.query.Query;
+
+import com.nt.domain.Phone;
+import com.nt.domain.User;
+import com.nt.utillity.HibernateUtil;
+
+public class UserDAOImpl implements UserDAO {
+
+	public void saveData() {
+		Session ses=null;
+		Query query=null;
+		User user=null;
+		Phone phone1=null,phone2=null;
+		Map<String,Phone>phoneset=null;
+		int count=0;
+		boolean flag=false;
+		Transaction tx=null;
+		ses=HibernateUtil.getSession();
+		user=new User();
+		//user.setUserId(2001);
+		user.setUname("wasim haider");
+		user.setAddress("patna");
+		
+		phone1=new Phone();
+		phone1.setPhone1(78488888l);
+		phone1.setNumbertype("public");
+		phone1.setProvider("reliance");
+		
+		phone2=new Phone();
+		phone2.setPhone1(98888888l);
+		phone2.setNumbertype("personal");
+		phone2.setProvider("jio");
+		
+		phoneMap=new HashMap();
+		phoneMap.put("phone1",phone1);
+		phoneMap.put("phone2",phone2);
+		user.setPhone(phoneset);
+		
+		try {
+			  //begin Tx
+				tx=ses.beginTransaction();
+				 ses.save(user);
+				 flag=true;
+			}//try
+			catch(HibernateException he) {
+				flag=false;
+				he.printStackTrace();
+			}
+			catch(Exception e) {
+				flag=false;
+				e.printStackTrace();
+			}
+			finally {
+				if(flag) {
+					tx.commit();
+					System.out.println("Parent to child objs are saved");
+				}
+				else {
+					tx.rollback();
+					System.out.println("Parent to child objs are not saved");
+				}
+				//close objs
+				HibernateUtil.closeSession(ses);
+			}//finally
+	}
+
+	@Override
+	public void deleteOneChildfromCollectionOfChildsBelogingToAParentByUserId(int userId) {
+		Session ses=null;
+		User user=null;
+		Transaction tx=null;
+		Map<String,Phone>phoneset=null;
+		Phone phone=null;
+		boolean flag=false;
+		ses=HibernateUtil.getSession();
+		user=ses.get(User.class,userId);
+		phoneset=user.getPhone();
+		phone=phoneset.get(1);
+		try {
+			tx=ses.beginTransaction();
+			phoneset.remove(phone);
+			flag=true;
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			flag=false;
+		}
+		finally {
+			if(flag) {
+				tx.commit();
+				System.out.println("specific child deleted");
+			}
+			else {
+				tx.rollback();
+				System.out.println("specific child not deleted");
+			}
+		}
+		HibernateUtil.closeSession(ses);
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.nt.cachetest;
+
+import com.nt.dao.AddressDao;
+import com.nt.dao.AddressDaoImpl;
+
+public class AddressTest {
+
+	public static void main(String[] args) {
+		AddressDao dao=new AddressDaoImpl();
+		dao.saveData();
+		
+	}
+
+}

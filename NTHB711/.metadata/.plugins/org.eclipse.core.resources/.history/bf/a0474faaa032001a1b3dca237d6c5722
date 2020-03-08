@@ -1,0 +1,34 @@
+package com.nt.dao;
+
+import javax.transaction.Transaction;
+
+import org.hibernate.Session;
+
+import com.nt.entity.Address;
+import com.nt.utility.HibernateUtil;
+import com.sun.org.apache.xml.internal.resolver.readers.XCatalogReader;
+
+public class AddressDaoImpl implements AddressDao {
+
+	@Override
+	public void saveData() {
+		Session ses=null;
+		Transaction tx=null;
+		Address address=null;
+		ses=HibernateUtil.getSession();
+		boolean flag=false;
+		address=new Address();
+		try {
+			address.setArea("Khanjarpur");
+			address.setHouseNo(126);
+			address.setPin(812001);
+			address.setStreet("Tilkamanjhi");
+	
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

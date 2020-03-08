@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.nt.proxy.BankServiceFactory.java&apos; to &apos;BankServiceProxy.java&apos;&#x0D;&#x0A;- Original project: &apos;HBProj3-ProxyDesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.proxy.BankServiceFactory.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.proxy.BankServiceProxy.java&apos;" description="Rename compilation unit &apos;BankServiceFactory.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.nt.proxy{BankServiceFactory.java" name="BankServiceProxy.java" references="false" stamp="1555184707029" version="1.0"/>
+</session>

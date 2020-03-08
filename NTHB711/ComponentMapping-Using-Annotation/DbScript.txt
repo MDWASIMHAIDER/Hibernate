@@ -1,0 +1,10 @@
+SQL> desc person_profile;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- --------------
+ PID                                       NOT NULL NUMBER(8)
+ PNAME                                              VARCHAR2(20)
+ AGE                                                NUMBER(3)
+ HOUSENO                                            VARCHAR2(12)
+ STREET                                             VARCHAR2(10)
+ AREA                                               VARCHAR2(12)
+ PIN                                                NUMBER(5)

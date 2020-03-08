@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+ 	<class name="com.nt.entity.EmployeeFilter" table="EMPLOYEEFILTER">
+ 		<id name="id" type="int" length="5">
+ 			<generator class="increment"/>
+ 		</id>
+ 		<property name="fname" type="string" length="12"/>
+ 		<property name="lname" type="string" length="12"/>
+ 		<property name="email" type="string" length="12"/>
+ 		<filter name="HB_FILTER" condition="id>=:min and id&lt;=:max"/>
+ 	</class>
+ 	<filter-def name="HB_FILTER">
+ 		<filter-param name="min" type="int"/>
+ 		<filter-param name="max" type="int"/>
+ 	</filter-def>
+ </hibernate-mapping>

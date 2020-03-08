@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+ 	<class name="com.nt.domain.User" table="USER_TABLE3">
+        <id name="userId" type="int">
+            <column name="USERID" length="10" />
+           <generator class="increment"/>
+        </id>
+        <property name="uname" type="string">
+            <column name="UNAME"  length="15"/>
+        </property>
+        <property name="address" type="string">
+            <column name="ADDRESS" length="15" />
+        </property>
+       <!--  <list name="phone" cascade="all-delete-orphan" lazy="extra" >
+            <key column="users_id"/>//its creates foriegn key col
+            <list-index column="lst_indx" base="1"/>//it create index col in child
+            <one-to-many class="com.nt.domain.Phone"/>
+        </list> -->
+        
+        <!-- both will work same -->
+        
+        <bag name="phone" cascade="all-delete-orphan" lazy="extra">
+        	<key column="users_id"/>
+        	<one-to-many class="com.nt.domain.Phone"/>
+        </bag>
+    </class>
+ </hibernate-mapping>

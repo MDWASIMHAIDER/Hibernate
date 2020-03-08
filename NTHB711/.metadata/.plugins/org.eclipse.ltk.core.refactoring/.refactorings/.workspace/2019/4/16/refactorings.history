@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HBProj4-LoadObject-ProxyInterface&apos; to &apos;HBProj5-LoadObject-ProxyInterface&apos;" description="Rename resource &apos;HBProj4-LoadObject-ProxyInterface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HBProj4-LoadObject-ProxyInterface" name="HBProj5-LoadObject-ProxyInterface" stamp="1555238687216" updateReferences="true"/>
+</session>

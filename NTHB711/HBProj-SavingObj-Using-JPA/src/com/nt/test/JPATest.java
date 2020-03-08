@@ -1,0 +1,28 @@
+package com.nt.test;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+import com.nt.entity.Employee;
+
+public class JPATest {
+
+	public static void main(String[] args) {
+		EntityManagerFactory factory=null;
+		EntityManager manager=null;
+		factory=Persistence.createEntityManagerFactory("pu1");
+		manager=factory.createEntityManager();
+		Query query=null;
+		List<Employee>listemp=null;
+		query= manager.createQuery("from EMPLOYEE_DETAIL");
+		listemp=query.getResultList();
+		listemp.forEach(li->{
+			System.out.println(li);
+		});
+	}
+
+}

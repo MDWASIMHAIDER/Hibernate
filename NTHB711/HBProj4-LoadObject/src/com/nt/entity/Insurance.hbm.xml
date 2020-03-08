@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        <hibernate-mapping>
+        	<class name="com.nt.entity.InsurancePolicy" table="INSURANCE_DETAIL" lazy="false">
+        	<!-- lazy="true ,,it
+        	 enable lazy load but when domain class is as final
+        	  then it wont work it still work as eager
+        	   load when no real obj used further" -->
+        		<id name="policyId" column="policyId"/>
+        		<property name="policyName" column="policyName"/>
+        		<property name="tenure" column="tenure"/>
+        		<property name="company" column="company"/>
+        		<property name="initialAmount" column="initialAmount"/>
+        	</class>
+        </hibernate-mapping>

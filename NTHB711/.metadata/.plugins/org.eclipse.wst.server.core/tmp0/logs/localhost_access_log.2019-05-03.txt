@@ -1,0 +1,12 @@
+127.0.0.1 - - [03/May/2019:10:59:52 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [03/May/2019:10:59:54 +0530] "GET /favicon.ico HTTP/1.1" 404 1020
+0:0:0:0:0:0:0:1 - - [03/May/2019:10:59:59 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [03/May/2019:11:00:18 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 404 1070
+127.0.0.1 - - [03/May/2019:11:01:12 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [03/May/2019:11:01:25 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 200 161
+127.0.0.1 - - [03/May/2019:11:06:20 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [03/May/2019:11:06:30 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 200 161
+127.0.0.1 - - [03/May/2019:11:16:59 +0530] "GET / HTTP/1.1" 404 998
+127.0.0.1 - - [03/May/2019:11:19:54 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [03/May/2019:11:20:29 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [03/May/2019:11:35:57 +0530] "POST /HBProj10-WebLayeredApp/projectdetail HTTP/1.1" 200 161

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.nt.utillity&apos; to &apos;HBProj-one-to-many-uni-setCollection/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;HBProj-CompositeId-With-Idclass2-Annotaion&apos;&#x0D;&#x0A;- Destination element: &apos;HBProj-one-to-many-uni-setCollection/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;HBProj-CompositeId-With-Idclass2-Annotaion/src/com.nt.utillity&apos;" description="Copy package" destination="=HBProj-one-to-many-uni-setCollection/src\/main\/java" element1="/src&lt;com.nt.utillity" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1561814930393" version="1.0"/>
+</session>

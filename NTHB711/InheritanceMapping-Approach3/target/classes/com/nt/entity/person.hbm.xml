@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   <hibernate-mapping>
+   		<class name="com.nt.entity.Person" table="PERSON_INHERITANCE_Approach4">
+   			<id name="id" type="int">
+   				<column name="ID" length="6"/>
+   				<generator class="increment"/>
+   			</id>
+   
+   			<property name="name" type="string">
+   				<column name="NAME" length="18"/>
+   			</property>
+   			<property name="company" type="string">
+   				<column name="COMPANY" length="12"/>
+   			</property>
+   			<union-subclass name="com.nt.entity.Employee" table="emp_123">
+   				<property name="desg" type="string">
+   					<column name="DESG" length="15"/>
+   				</property>
+   				<property name="salary" type="float">
+   					<column name="SALARY" length="8" precision="2"/>
+   				</property>
+   			</union-subclass>
+   			<union-subclass name="com.nt.entity.Customer" table="cust_123" >
+   				<property name="address" type="string">
+   					<column name="ADDRESS" length="20"/>
+   				</property>
+   				<property name="billAmount" type="float">
+   					<column name="BILLAMOUNT" length="10"/>
+   				</property>
+   			</union-subclass>
+   		</class>
+   </hibernate-mapping>

@@ -1,0 +1,9 @@
+package com.nt.utility;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtils {
+	Configuration config=new Configuration();
+	SessionFactory factory=new 
+}

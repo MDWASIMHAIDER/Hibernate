@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.nt.utility&apos; to &apos;HBProj-CompositeId/src&apos;&#x0D;&#x0A;- Original project: &apos;HBProj8-SaveAndUpdate-Obj-Using-Merze&apos;&#x0D;&#x0A;- Destination element: &apos;HBProj-CompositeId/src&apos;&#x0D;&#x0A;- Original element: &apos;HBProj8-SaveAndUpdate-Obj-Using-Merze/src/com.nt.utility&apos;" description="Copy package" destination="=HBProj-CompositeId/src" element1="/src&lt;com.nt.utility" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1556864565303" version="1.0"/>
+</session>
